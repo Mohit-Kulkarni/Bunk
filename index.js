@@ -20,6 +20,9 @@ noBunk.addEventListener("click", function() {
     console.log("I got vibrated");
   }, 1000);
   alert("Ek baar bola Class nahi karneka phir bhi kaisa kya himmat hui re teri No Bunk pe click karne ki");
+  window.addEventListener('popstate', () => {
+    window.history.forward()
+  });
 });
 
 document.getElementById('ip2').addEventListener("click", function() {
