@@ -13,7 +13,7 @@ noBunk.addEventListener("mouseover", function() {
   setInterval(() => {
     const duration = Math.floor(Math.random() * 600)
     window.navigator.vibrate(duration)
-    console.log("I got vibrated");
+    console.log("Haptics ON");
   }, 1000);
 });
 
