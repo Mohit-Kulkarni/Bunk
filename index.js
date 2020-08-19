@@ -9,16 +9,16 @@ noBunk.addEventListener("mouseover", function() {
   } else {
     this.style.marginLeft = -rdm + "em";
   }
-
-});
-
-noBunk.addEventListener("click", function() {
   if (typeof window.navigator.vibrate !== 'function') return
   setInterval(() => {
     const duration = Math.floor(Math.random() * 600)
     window.navigator.vibrate(duration)
     console.log("I got vibrated");
   }, 1000);
+});
+
+noBunk.addEventListener("click", function() {
+
   alert("Ek baar bola Class nahi karneka phir bhi kaisa kya himmat hui re teri No Bunk pe click karne ki");
   window.addEventListener('popstate', () => {
     window.history.forward()
