@@ -19,7 +19,7 @@ noBunk.addEventListener("mouseover", function() {
 
 noBunk.addEventListener("click", function() {
 
-  document.write("<h2>Kyu be saale samaj nhi aata nhi jaaneka college toh!!!</h2>");
+  document.write("<img src='https://media1.tenor.com/images/0ab1dc20217f04ed99e2d2ba5c353182/tenor.gif?itemid=16431624' /><h2>Kyu be saale samaj nhi aata nhi jaaneka college toh!!!</h2>");
   window.addEventListener('popstate', () => {
     window.history.forward()
   });
@@ -28,6 +28,6 @@ noBunk.addEventListener("click", function() {
 document.getElementById('ip2').addEventListener("click", function() {
 
 
-  document.write("Tu Badlega desh");
+  document.write("<img src='https://media1.tenor.com/images/f5d638b12cde8d9a263f12bc2ce51ee2/tenor.gif?itemid=7544391' />Tu Badlega desh");
 
 });
