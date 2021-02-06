@@ -28,6 +28,6 @@ noBunk.addEventListener("click", function() {
 document.getElementById('ip2').addEventListener("click", function() {
 
 
-  document.getElementsByClassName("<img src='https://media1.tenor.com/images/f5d638b12cde8d9a263f12bc2ce51ee2/tenor.gif?itemid=7544391' /><h2>Tu Badlega desh</h2>");
+  document.getElementsByClassName('middle-container').innerHTML("<img src='https://media1.tenor.com/images/f5d638b12cde8d9a263f12bc2ce51ee2/tenor.gif?itemid=7544391' /><h2>Tu Badlega desh</h2>");
 
 });
