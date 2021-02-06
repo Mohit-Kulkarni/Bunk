@@ -19,7 +19,7 @@ noBunk.addEventListener("mouseover", function() {
 
 noBunk.addEventListener("click", function() {
 
-  alert("Ek baar bola Class nahi karneka phir bhi kaisa kya himmat hui re teri No Bunk pe click karne ki");
+  document.write("Aye yede, himmat kaise hui re teri ye button dabane ki");
   window.addEventListener('popstate', () => {
     window.history.forward()
   });
