@@ -19,7 +19,7 @@ noBunk.addEventListener("mouseover", function() {
 
 noBunk.addEventListener("click", function() {
 
-  document.write("Aye yede, himmat kaise hui re teri ye button dabane ki");
+  document.write("<div class='top-container'><h2><img src="https://media1.tenor.com/images/0ab1dc20217f04ed99e2d2ba5c353182/tenor.gif?itemid=16431624"><br>Kyu be saale samaj nhi aata nhi jaaneka college toh!!!</h2></div>");
   window.addEventListener('popstate', () => {
     window.history.forward()
   });
@@ -28,6 +28,6 @@ noBunk.addEventListener("click", function() {
 document.getElementById('ip2').addEventListener("click", function() {
 
 
-  document.write("Tu Badlega Desh ghar p baith k badlega desh tu");
+  document.write("<div class='top-container'><h2>Tu Badlega desh!!!</h2></div>");
 
 });
